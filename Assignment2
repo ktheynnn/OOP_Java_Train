@@ -83,15 +83,12 @@ class Wagon {
             mesto[i] = new Mesto("Free", false);
         }
     }
-
     public int getTaken_mesto() {
         return taken_mesto;
     }
-
     public int getId() {
         return index;
     }
-
     public void addTaken_mesto() {
         this.taken_mesto++;
     }
@@ -106,21 +103,16 @@ class Mesto {
         this.name = name;
         this.take = take;
     }
-
     public String getName() {
         return name;
     }
-
     public boolean isTake() {
         return take;
     }
-
     public void setName(String name) {
         this.name = name;
     }
-
     public void setTake(boolean take) {
         this.take = take;
     }
-
 }
